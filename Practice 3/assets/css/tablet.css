@@ -1,0 +1,17 @@
+@media screen and (max-width:768px){
+    .menu{
+        display: block;
+    }
+    .bot{
+        display:none;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .top{
+        flex-direction: column;
+        margin: 1%;
+    }
+}

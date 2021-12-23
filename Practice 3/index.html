@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/tablet.css" />
+    <link rel="stylesheet" href="./assets/css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="big" onclick="myFunction()">
+      <img class="menu" src="./assets/pic/menu.png" alt="" />
+    </div>
+
+    <div class="top" id="top">
+      <img class="pro" src="assets/pic/profile.jpg" alt="" />
+      <div class="text">
+        <div class="hello" id="hello">
+          <h1>Hello</h1>
+          <img src="./assets/pic/waving-hand.png" alt="" />
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. A debitis ab
+          molestias officiis placeat eligendi voluptates aliquam quo ullam dicta
+          dolore, impedit laboriosam eius eum beatae, in neque, repudiandae
+          reprehenderit! officiis placeat eligendi voluptates aliquam quo ullam
+          dicta dolore <br /><br />
+
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+          deleniti voluptates, vel expedita eius aliquid ut! Vero non dolore
+          amet delectus laborum minus molestiae laudantium corrupti numquam
+          ipsum. Adipisci, assumenda. officiis placeat eligendi voluptates
+          aliquam quo ullam dicta dolore<br /><br />
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          nesciunt inventore, debitis possimus pariatur sunt porro. Ratione odio
+          aliquid consequatur non ab nihil nesciunt, quibusdam ipsa. Ad sint
+          adipisci rem? officiis placeat eligendi voluptates aliquam quo ullam
+          dicta dolore
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="bot" id="bot">
+      <div class="bottop">
+        <h3>DIGITIZE YOUR BUSINESS</h3>
+        <p>
+          i will help you to create a remarkable first impression with creative
+          designs
+        </p>
+      </div>
+      <div class="botbot">
+        <div class="item">
+          <img src="assets/pic/code.png" alt="" />
+          <h3>Web Development</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            quasi temporibus perspiciatis accusamus adipisci ducimus debitis
+            fugiat dolorum maiores vel! Ipsam quidem necessitatibus, doloremque
+            odit veritatis fuga eum dolores mollitia.
+          </p>
+        </div>
+        <div class="item">
+          <img src="./assets/pic/smartphone.png" alt="" />
+          <h3>Responsive Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            sapiente molestiae! Consectetur similique quidem eaque? Dolor
+            temporibus asperiores consequatur quae modi iusto, minima excepturi
+            maiores, eaque vel, perferendis sit debitis.
+          </p>
+        </div>
+        <div class="item">
+          <img src="assets/pic/coding.png" alt="" />
+          <h3>PSD to HTML</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore modi
+            dolores hic accusantium error dolor quis labore pariatur illo?
+            Minima nisi id quis omnis cupiditate illum ratione harum possimus a.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var clicked = true;
+
+      function myFunction() {
+        if (clicked) {
+          document.getElementById("bot").style.display = "block";
+          document.getElementById("top").style.display = "none";
+        } else {
+          document.getElementById("bot").style.display = "none";
+          document.getElementById("top").style.display = "block";
+        }
+        clicked = !clicked;
+      }
+    </script>
+  </body>
+</html>

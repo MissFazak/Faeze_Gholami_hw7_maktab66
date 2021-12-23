@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@100&display=swap");
+
+.menu{
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+
+
+
+.top {
+  color: white;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.pro {
+  border-radius: 50%;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-right: 5%;
+}
+
+.text img {
+  width: 50px;
+  height: 50px;
+}
+
+.hello {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+}
+
+hr {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    -90deg,
+    rgba(131, 58, 180, 0.4) 0%,
+    rgba(253, 29, 29, 0.4) 50%,
+    rgba(252, 176, 69, 0.4) 100%
+  );
+  border: 0;
+  height: 1px;
+  margin: 10%;
+}
+
+.botbot {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 0 4%;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 300px;
+}
+
+.item h3 {
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 0.8),
+    rgba(253, 29, 29, 0.8),
+    rgba(252, 176, 69, 0.8)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.botbot img {
+  width: 30px;
+  height: 30px;
+}
+
+.bottop {
+  text-align: center;
+  margin: 5% 0;
+}
